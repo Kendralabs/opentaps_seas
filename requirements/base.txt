@@ -69,3 +69,4 @@ NREL-PySAM==2.2.2
 
 # Our greenbutton-python fork
 -e git+https://github.com/opentaps/greenbutton-python.git#egg=greenbutton
+sqlparse>=0.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
