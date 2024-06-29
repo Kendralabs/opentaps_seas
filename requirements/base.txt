@@ -21,7 +21,7 @@ timezonefinder==4.2.0
 python-slugify==4.0.0  # https://github.com/un33k/python-slugify
 Pillow==7.0.0  # https://github.com/python-pillow/Pillow
 argon2-cffi==19.1.0  # https://github.com/hynek/argon2_cffi
-redis>=3.2
+redis>=4.3.6
 
 crate==0.26.0
 matplotlib==3.4.2
@@ -29,7 +29,7 @@ celery==5.2.2
 
 # Django
 # ------------------------------------------------------------------------------
-django==2.2.27
+django==3.2.25
 django-environ==0.4.5  # https://github.com/joke2k/django-environ
 django-model-utils==4.0.0  # https://github.com/jazzband/django-model-utils
 django-allauth==0.41.0  # https://github.com/pennersr/django-allauth
@@ -69,3 +69,8 @@ NREL-PySAM==2.2.2
 
 # Our greenbutton-python fork
 -e git+https://github.com/opentaps/greenbutton-python.git#egg=greenbutton
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+cryptography>=42.0.8 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+jinja2>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability
